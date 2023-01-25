@@ -369,6 +369,7 @@ width: 264px;
     display: flex;
     align-items: center;
     gap: 24px;    
+    width: 568;
 } 
 
 .list {
