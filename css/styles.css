@@ -41,8 +41,6 @@ ul{
   
 .header{
 background: #FFFFFF;
-padding-top: 24px;
-padding-bottom: 24px;
 border-bottom: 1px solid #E7E9FC;;
 }
 .header-navigation {
@@ -63,6 +61,9 @@ border-bottom: 1px solid #E7E9FC;;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-logo:hover,
 .header-logo:focus {
@@ -98,6 +99,9 @@ line-height: 1.5;
 
 letter-spacing: 0.02em;
 color: #2E2F42;
+
+padding-top: 24px;
+padding-bottom: 24px;
 }
 .header-link:hover,
 .header-link:focus
@@ -126,6 +130,9 @@ line-height: 24px;
 letter-spacing: 0.02em;
 color: #434455;
 
+padding-top: 24px;
+padding-bottom: 24px;
+
 }
 .address-mail:hover,
 .address-mail:focus{
@@ -144,6 +151,8 @@ letter-spacing: 0.02em;
 /* SLATE */
 
 color: #434455;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 .address-tel:hover,
 .address-tel:focus {
@@ -195,6 +204,9 @@ color: #FFFFFF;
     color: #FFFFFF;
     cursor: pointer;
     padding: 16px 32px;
+    border: none;
+    border-radius: 4px
+
     
 
 }
@@ -246,7 +258,9 @@ min-height: 72px;
 
 }
 .section3 {
- padding-top: 0;   
+ padding-top: 0;  
+ padding-top: 112px;
+padding-bottom: 120px; 
 }
 .section3-title {
 font-weight: 700;
@@ -258,12 +272,10 @@ text-transform: capitalize;
 color: var(--main-title-color);
 }
 .section3-list {
-    padding-top: 112px;
-    padding-bottom: 120px;
     display: flex;
     gap: 24px;
     align-items: center;
-    width: calc((100%-48px)/3);
+    width: calc((100% - 48px) / 3);
    
 
 }
@@ -291,12 +303,12 @@ color: var(--main-title-color);
     display: flex;
     gap: 24px;
     align-items: center;
-    padding-bottom: 32px;
-    width: calc((100%-72px)/4);
-
+    background-color: #FFFFFF;
+    width: calc((100% - 72px)/4);
     
 }
 .section4-item {
+    background-color: #FFFFFF;
 }
 .section4-caption {
 font-weight: 500;
@@ -306,6 +318,7 @@ text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
 margin-bottom: 8px;
+
 }
 .section4-text {
 font-size: 16px;
@@ -313,15 +326,18 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 
+
 color: var(--main-text-color);
 }
-.section4-flex {
+.section4-team {
 margin-top: 32px;
+background-color: #FFFFFF;
+padding-top: 32px;
+padding-bottom: 32px;
+
 }
 .footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 156px;
+    
    
 background: #2E2F42;
 }
@@ -355,21 +371,33 @@ color: #E7E9FC;
 width: 264px;
 
 }
+.container-footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 156px;
+}
 /*--------------------------------------------------------
 ------------------------Portfolio-------------------------
 ---------------------------------------------------------*/
 .main {
 }
+.main-section {
+padding-top: 96px;
+}
+
 .buttons {
+   
+     
+}
+.container-btn{
     
 }
 .buttons-list {
-    padding-top: 96px;
-    padding-bottom: 72px;
     display: flex;
     align-items: center;
     gap: 24px;    
-    width: 568;
+    margin-bottom: 72px;
+    
 } 
 
 .list {
@@ -382,7 +410,6 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-margin: 0 auto;
 
 }
 .buttons-btn {
@@ -394,11 +421,14 @@ font-size: 16px;
 line-height: 1.5;
 background: #F4F4FD;
 /* identical to box height, or 150% */
-
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
+
+background-color:#F4F4FD;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
 
 
 /* IRIS */
@@ -413,8 +443,7 @@ color: #4D5AE5;
     background: #4D5AE5;
     color:#FFFFFF;
 }
-.main-section {
-}
+
 .main-list {
     padding-bottom: 120px;
     display: flex;
@@ -423,7 +452,7 @@ color: #4D5AE5;
     row-gap: 48px;
 }
 .main-item {
-    padding-bottom: 32px;
+
 }
 
 .main-title {
@@ -432,7 +461,6 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-margin-top: 32px;
 margin-bottom: 8px;
 
 
@@ -449,8 +477,8 @@ letter-spacing: 0.02em;
 color: var(--main-text-color);
 }
 .main-container-text{
-    pading-top: 32px;
-    padding-bottom: 32px;
     border: 1px solid #E7E9FC;
     border-top:none;
+    padding: 32px 16px;
+
 }
